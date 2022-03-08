@@ -1,0 +1,81 @@
+.d-flex{
+  display:flex;    
+}
+.justify-content-center{
+   
+    align-items: center;
+    justify-content: center;
+}
+
+.page{
+    font-family: Arial, Helvetica, sans-serif;
+    color:hsl(200, 100%, 36%) ;
+    border:1px solid black;
+    border-color:#ddd;
+    width:30px;
+    height:30px;
+    padding: 2px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.page:hover{
+    background-color:#ddd ;
+}
+.page:active{
+    background-color:hsl(200, 100%, 36%) ;
+    color:white;
+}
+.curve-left-border{
+    border-radius: 10px 0px 0px 10px;
+}
+.curve-right-border{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.on-click{
+    background-color:hsl(200, 100%, 36%) ;
+    color:white;
+}
+
+.table-responsive{
+    font-family: Arial, Helvetica, sans-serif;
+     display:flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+
+.table{
+    margin: 10px;
+}
+
+.table-bordered{
+    border: 2px solid #ddd;
+}
+.data-box{
+    border:1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    border-color:#ddd;
+    width:300px;
+    margin:8px;
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.name-text{
+    font-size: 20px;
+}
+.mail-text{
+    color: hsl(200, 100%, 36%);
+}
+
